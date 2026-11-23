@@ -51,47 +51,31 @@ DEFAULT_VPNGATE_API = "http://www.vpngate.net/api/iphone/"
 DEFAULT_VPNGATE_MIRROR = (
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json"
 )
-DEFAULT_OPTIMAL_API = "https://cf.090227.xyz/cmcc?ips=8port=443"
+DEFAULT_OPTIMAL_API = ""
 
 # 占位符检测：命中任意一个就认为用户还没配置
 PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
 
 # 静态优选域名池（可用 EDGE_HOSTS 整体覆盖）
 DEFAULT_EDGE_HOSTS = [
-    "www.galgamex.net:443",
-    "cloudflare-ip.mofashi.ltd:443",
-    "www.swowd.com:443",
-    "www.epicgames.com:443",
-    "vps.cheng2001.top:443",
-    "www.visa.com.hk:443",
-    "serviceshub.samsclub.com:443",
-    "stonexbullion.com:443",
-    "aftership.com:443",
-    "openai.com:443",
-    "store.ubi.com:443",
-    "hubspot.com:443",
-    "www.speedtest.net:443",
-    "chrono24.com:443",
-    "go1.dematic.com:443",
-    "images.chesscomfiles.com:443",
-    "www.visa.com.au:443",
-    "www.6i5.com:443",
-    "www.giannidelprete.it:443",
-    "www.hugedomains.com:443",
-    "www.proxyrarbg.to:443",
-    "time.is:443",
-    "pubs.acs.org:443",
-    "mfa.gov.ua:443",
-    "cf.nyanya.moe:443",
-    "grass.io:443",
-    "cf.877774.xyz:443",
-    "www.sloomb.com:443",
-    "t.213891.xyz:443",
-    "debot.ai:443",
-    "hzytjy.cn:443",
-    "nodejs.org:443",
-    "registry.npmjs.org:443",
-    "email.lg.com:443",
+    "www.galgamex.net:2096",
+    "cdn.cnno.de:2087",
+    "cf.777791.xyz:2087",
+    "kali.download:2087",
+    "www.loc.gov:2096",
+    "registry.yarnpkg.com:2083",
+    "www.trumpstruth.org:2083",
+    "singapore.com:2083",
+    "www.copilot.com:2087",
+    "www.petronaftco.com:2053",
+    "i.jpg.dog:2096",
+    "linkvertise.com:2087",
+    "fbi.gov:2083",
+    "uptimerobot.com:2087",
+    "my.vultr.com:443",
+    "s.bookcdn.com:443",
+    "pubs.acs.org:2083",
+    "unpkg.com:2096",
 ]
 
 DATA_CENTER_ORG_KEYWORDS = [
