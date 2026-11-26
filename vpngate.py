@@ -58,20 +58,36 @@ PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
 
 # 静态优选域名池（可用 EDGE_HOSTS 整体覆盖）
 DEFAULT_EDGE_HOSTS = [
-    "saas.sin.fan:443",
-    "www.mfyx.cn:443",
-    "cf.nyanya.moe:443",
-    "cf.877774.xyz:443",
-    "cdn.204910.best:443",
-    "cdn.ctn32.us.kg:443",
-    "p.etime.vip:443",
-    "cmcc.vvvv.ee:443",
-    "cfsaas.080112.xyz:443",
-    "cdn.aneko.ink:443",
-    "hk.cf.3666888.xyz:443",
-    "best.hzample.kdns.fr:443",
-    "ctsg.cfyx.aliyun.20237737.xyz:443",
-    "china-unicom.cname.cloudflare.468123.xyz:443",
+    "cloudflare-ip.mofashi.ltd:2083",  # HK 130ms
+    "cf.92555.xyz:8443",                # HK 140ms
+    "img.css.sd:2096",                  # HK 158ms
+    "cf.qq.ms:2053",                    # HK 199ms
+    "cfip.1323123.xyz:2053",            # DE 201ms
+    "vps.cheng2001.top:2096",           # GB 210ms
+    "investor.apple.com:2087",          # GB 212ms
+    "jobsdb.com:2087",                  # GB 214ms
+    "redis.io:2083",                    # GB 220ms
+    "www.acces-maroc.ma:2083",          # GB 223ms
+    "dango.co:2053",                    # GB 226ms
+    "cdn.7zz.cn:2087",                  # GB 229ms
+    "yd.zhuqq.qzz.io:2053",             # US 234ms
+    "serviceshub.samsclub.com:2087",    # GB 238ms
+    "mskcc.org:2096",                   # US 240ms
+    "stonexbullion.com:2083",           # US 243ms
+    "www.doiting.com:2053",             # US 244ms
+    "www.ventusky.com:8443",            # US 245ms
+    "dynadot.com:2096",                 # US 246ms
+    "www.shopify.com:2087",             # US 246ms
+    "funko.com:2053",                   # US 247ms
+    "www.timbuktutravel.com:2096",      # US 247ms
+    "helium.computer:2053",             # US 247ms
+    "pubs.acs.org:8443",                # US 247ms
+    "images.chesscomfiles.com:2053",    # US 248ms
+    "fonts.cdnfonts.com:2087",          # US 248ms
+    "staticdelivery.nexusmods.com:8443",# US 248ms
+    "codexradar.com:2087",              # US 249ms
+    "hostinger.com:8443",               # US 249ms
+    "www.visa.com.sg:2087",             # US 249ms
 ]
 
 DATA_CENTER_ORG_KEYWORDS = [
